@@ -7,5 +7,14 @@ fields:
   type: text
   hidden: false
   default: post
+- type: boolean
+  name: toggle
+  label: Toggle
+- type: list
+  name: list
+  label: List
+- type: tag_list
+  name: tags
+  label: Tags
 pages:
 - test.html
